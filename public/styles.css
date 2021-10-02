@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    /* height: 100%;
+    position: relative; */
+}
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+.note .ord{
+	display: table;
+}
+.note .ord tr {
+	display: table-cell;
+}
+.note .ord tr td {
+	display: block;
+}
+.note .sbtn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
