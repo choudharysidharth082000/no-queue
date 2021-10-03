@@ -3,21 +3,23 @@ import {useEffect, useState} from 'react'
 const Cartcard = ()=>
 {
     const button = document.getElementById('subtract');
-    
+
     const [value, setValue] = useState(0);
    
     const add =() =>
     
     {
-        if(value > -1 )
+        setValue(value+1);
+        
+        if(value > 0)
         {
             button.disabled = false;
         }
-        setValue(value+1)
+
     }
     const subtract = () =>
     {
-        if(value == 1)
+        if(value === 1)
         {
             button.disabled = true;
 

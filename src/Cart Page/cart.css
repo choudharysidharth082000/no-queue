@@ -8,7 +8,7 @@
 .containor_main 
 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #eceff4;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    
+    
     height: 100%;
     
 }
@@ -131,6 +133,7 @@
     width: 5%;
     height: 100%;
     background-color: rgb(231, 52, 52);
+    
 }
 .bin
 
@@ -156,6 +159,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 .buttons_main
 {
@@ -176,4 +180,97 @@
     background-color: #2d3436;
     color: white;
     border: none;
+}
+.navcontainor
+
+{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1036px) {
+    .contents_main
+    {
+        width: 400px;
+        height: 100%;
+        margin-left: 280px;
+        margin-top: 100px;
+    }
+    .cartContent
+    {
+        flex-direction: column;
+        
+        
+        
+        margin: 40px;
+        
+    }
+    .imagecontainor
+    {
+        width: 100%;
+        height: 150px;
+    }
+    .description
+    {
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        height: 100px;
+    }
+    .description h2
+    {
+        font-size: 20px;
+        margin-left: -20px;
+        padding: 0;
+    }
+    .description p
+    {
+        margin: 10px;
+        font-size: 15px;
+    }
+    .content_containor
+
+    {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .items 
+    {
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        height: 50px;
+
+    }
+    .cross 
+    {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+    }
+    .bin
+    {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(231, 52, 52);
+        margin-top: 20px;
+        
+
+    }
+    .final_buttons
+    {
+        margin-top: 200px;
+
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .contents_main
+    {
+        margin-left:40px ;
+    }
+    
 }
